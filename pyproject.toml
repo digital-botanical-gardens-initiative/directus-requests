@@ -12,6 +12,9 @@ packages = [
 
 [tool.poetry.dependencies]
 python = ">=3.8,<4.0"
+requests = "^2.31.0"
+types-requests = "^2.31.0.20240406"
+python-dotenv = "^1.0.1"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.2.0"
